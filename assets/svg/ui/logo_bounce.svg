@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="460" viewBox="0 0 520 460">
+  <!-- PENROSE BREAK logo, v2: the roles of the game itself — the breadbin home
+       computer IS the paddle (top), and its old CRT television IS the ball,
+       glowing turquoise, just slammed downward off the computer's underside.
+       Flat turquoise fills, dark #05191e outlines, transparent background,
+       same house style as the caduceus mark. Easter egg intact: the TV
+       screen replays the game (paddle up top, block wall below, ball
+       mid-flight with trail). -->
+
+  <!-- ===== floor shadow, soft — the TV is airborne ===== -->
+  <ellipse cx="330" cy="432" rx="104" ry="8" fill="#031013" opacity="0.35"/>
+
+  <!-- ===== the TV is the BALL: glow halo ===== -->
+  <ellipse cx="330" cy="262" rx="150" ry="112" fill="#00ffe0" opacity="0.07"/>
+  <ellipse cx="330" cy="262" rx="118" ry="88" fill="#00ffe0" opacity="0.10"/>
+  <ellipse cx="330" cy="262" rx="94" ry="70" fill="#00ffe0" opacity="0.09"/>
+
+  <!-- ===== trajectory: up from lower-left, deflect under the paddle, slam down ===== -->
+  <path d="M170 338 Q224 170 306 112 Q336 156 336 200"
+        fill="none" stroke="#19e3d2" stroke-width="3.5"
+        stroke-dasharray="7 9" stroke-linecap="round" opacity="0.6"/>
+  <!-- smoke puffs dimming along the incoming climb -->
+  <circle cx="188" cy="300" r="8" fill="#19e3d2" opacity="0.14"/>
+  <circle cx="206" cy="252" r="6" fill="#19e3d2" opacity="0.2"/>
+  <circle cx="228" cy="204" r="5" fill="#19e3d2" opacity="0.28"/>
+  <!-- ball-trail wisps chasing the falling TV -->
+  <circle cx="318" cy="168" r="4" fill="#00ffe0" opacity="0.3"/>
+  <circle cx="326" cy="188" r="5" fill="#00ffe0" opacity="0.22"/>
+  <!-- speed lines trailing above the downward motion -->
+  <g stroke="#57d6cb" stroke-width="3" stroke-linecap="round" opacity="0.55">
+    <line x1="290" y1="152" x2="294" y2="172"/>
+    <line x1="358" y1="146" x2="360" y2="166"/>
+    <line x1="380" y1="176" x2="381" y2="194"/>
+  </g>
+
+  <!-- ===== the television, mid-air, tilted by the slam ===== -->
+  <g transform="translate(330,262) rotate(12)">
+    <!-- rabbit ears ride along -->
+    <line x1="-30" y1="-58" x2="-54" y2="-98" stroke="#05191e" stroke-width="6.5" stroke-linecap="round"/>
+    <line x1="-30" y1="-58" x2="-54" y2="-98" stroke="#0fb8ad" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-54" cy="-98" r="5.5" fill="#57d6cb" stroke="#05191e" stroke-width="2.5"/>
+    <line x1="-16" y1="-58" x2="4" y2="-94" stroke="#05191e" stroke-width="6.5" stroke-linecap="round"/>
+    <line x1="-16" y1="-58" x2="4" y2="-94" stroke="#0fb8ad" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="4" cy="-94" r="5.5" fill="#57d6cb" stroke="#05191e" stroke-width="2.5"/>
+    <!-- feet, dangling -->
+    <rect x="-72" y="56" width="30" height="11" rx="4" fill="#0a2e33" stroke="#05191e" stroke-width="2.5"/>
+    <rect x="40" y="56" width="30" height="11" rx="4" fill="#0a2e33" stroke="#05191e" stroke-width="2.5"/>
+    <!-- body -->
+    <rect x="-100" y="-58" width="200" height="116" rx="12"
+          fill="#0d3f44" stroke="#05191e" stroke-width="3.5"/>
+    <rect x="-90" y="-52" width="180" height="4" rx="2" fill="#57d6cb" opacity="0.35"/>
+    <!-- screen bezel + glass -->
+    <rect x="-90" y="-46" width="142" height="92" rx="6" fill="#0a2e33" stroke="#05191e" stroke-width="2.5"/>
+    <rect x="-84" y="-40" width="130" height="80" rx="4" fill="#051d22" stroke="#05191e" stroke-width="2"/>
+    <!-- on screen: the game itself. paddle on top... -->
+    <rect x="-36" y="-34" width="36" height="5" rx="2.5" fill="#0fb8ad"/>
+    <!-- ...glowing ball mid-flight with a wisp of trail... -->
+    <circle cx="-14" cy="-12" r="6.5" fill="#00ffe0" opacity="0.25"/>
+    <circle cx="-14" cy="-12" r="3.6" fill="#00ffe0"/>
+    <circle cx="-19" cy="-19" r="1.8" fill="#00ffe0" opacity="0.45"/>
+    <circle cx="-22" cy="-24" r="1.3" fill="#00ffe0" opacity="0.25"/>
+    <!-- ...and the block wall at the bottom, damage stages showing -->
+    <g stroke="#05191e" stroke-width="1.2">
+      <rect x="-81" y="14" width="39" height="7" rx="1.8" fill="#6fdcd6"/>
+      <rect x="-38" y="14" width="39" height="7" rx="1.8" fill="#9ccfff"/>
+      <rect x="5" y="14" width="39" height="7" rx="1.8" fill="#3fcabf"/>
+      <rect x="-81" y="23" width="39" height="7" rx="1.8" fill="#3fcabf"/>
+      <rect x="-38" y="23" width="39" height="7" rx="1.8" fill="#0fb8ad"/>
+      <rect x="5" y="23" width="39" height="7" rx="1.8" fill="#3fcabf"/>
+      <rect x="-81" y="32" width="39" height="7" rx="1.8" fill="#0fb8ad"/>
+      <rect x="-38" y="32" width="39" height="7" rx="1.8" fill="#0fb8ad"/>
+      <rect x="5" y="32" width="39" height="7" rx="1.8" fill="#0fb8ad"/>
+    </g>
+    <!-- glass streak -->
+    <polygon points="-76,-40 -46,-40 -66,40 -84,40 -84,0" fill="#9fece4" opacity="0.10"/>
+    <!-- control panel: dials + speaker slits -->
+    <rect x="58" y="-46" width="34" height="92" rx="5" fill="#0a2e33" stroke="#05191e" stroke-width="2.5"/>
+    <circle cx="75" cy="-24" r="8" fill="#57d6cb" stroke="#05191e" stroke-width="2.5"/>
+    <line x1="75" y1="-24" x2="80" y2="-30" stroke="#05191e" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="75" cy="-2" r="5.5" fill="#57d6cb" stroke="#05191e" stroke-width="2.5"/>
+    <line x1="75" y1="-2" x2="78" y2="-7" stroke="#05191e" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="64" y1="18" x2="86" y2="18" stroke="#05191e" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="64" y1="26" x2="86" y2="26" stroke="#05191e" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="64" y1="34" x2="86" y2="34" stroke="#05191e" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- ===== the home computer is the PADDLE, holding the top line ===== -->
+  <g transform="translate(268,78) rotate(-4)">
+    <!-- recoil ticks: the paddle just punched upward -->
+    <g stroke="#57d6cb" stroke-width="2.5" stroke-linecap="round" opacity="0.45">
+      <line x1="-58" y1="-34" x2="-61" y2="-46"/>
+      <line x1="-22" y1="-38" x2="-24" y2="-50"/>
+      <line x1="14" y1="-36" x2="13" y2="-48"/>
+    </g>
+    <!-- rubber feet -->
+    <rect x="-62" y="26" width="16" height="8" rx="3" fill="#05191e"/>
+    <rect x="42" y="26" width="16" height="8" rx="3" fill="#05191e"/>
+    <!-- base unit -->
+    <rect x="-76" y="-4" width="152" height="34" rx="7"
+          fill="#0fb8ad" stroke="#05191e" stroke-width="3.5"/>
+    <!-- slanted keyboard deck -->
+    <polygon points="-68,-24 62,-24 70,-4 -76,-4"
+             fill="#57d6cb" stroke="#05191e" stroke-width="3"/>
+    <!-- keys: two rows + space bar -->
+    <g fill="#eafffb" stroke="#05191e" stroke-width="1.5">
+      <rect x="-60" y="-21" width="11" height="6" rx="1.5"/>
+      <rect x="-45" y="-21" width="11" height="6" rx="1.5"/>
+      <rect x="-30" y="-21" width="11" height="6" rx="1.5"/>
+      <rect x="-15" y="-21" width="11" height="6" rx="1.5"/>
+      <rect x="0" y="-21" width="11" height="6" rx="1.5"/>
+      <rect x="15" y="-21" width="11" height="6" rx="1.5"/>
+      <rect x="30" y="-21" width="11" height="6" rx="1.5"/>
+      <rect x="45" y="-21" width="11" height="6" rx="1.5"/>
+      <rect x="-58" y="-12" width="11" height="6" rx="1.5"/>
+      <rect x="-43" y="-12" width="11" height="6" rx="1.5"/>
+      <rect x="-28" y="-12" width="11" height="6" rx="1.5"/>
+      <rect x="-13" y="-12" width="42" height="6" rx="2"/>
+      <rect x="33" y="-12" width="11" height="6" rx="1.5"/>
+      <rect x="48" y="-12" width="11" height="6" rx="1.5"/>
+    </g>
+    <!-- front badge: name plate + heritage stripes -->
+    <rect x="-68" y="4" width="58" height="12" rx="3" fill="#0a2e33" stroke="#05191e" stroke-width="2"/>
+    <rect x="16" y="4" width="4" height="12" fill="#9ccfff"/>
+    <rect x="22" y="4" width="4" height="12" fill="#57d6cb"/>
+    <rect x="28" y="4" width="4" height="12" fill="#eafffb"/>
+    <rect x="34" y="4" width="4" height="12" fill="#19e3d2"/>
+    <!-- power lamp -->
+    <circle cx="62" cy="10" r="3.5" fill="#00ffe0" stroke="#05191e" stroke-width="1.5"/>
+  </g>
+
+  <!-- ===== impact under the paddle: squash flash + starburst ===== -->
+  <ellipse cx="306" cy="112" rx="24" ry="5" fill="#9fece4" opacity="0.5"/>
+  <g stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" opacity="0.9">
+    <line x1="306" y1="118" x2="306" y2="136"/>
+    <line x1="290" y1="116" x2="279" y2="128"/>
+    <line x1="322" y1="116" x2="333" y2="128"/>
+    <line x1="284" y1="109" x2="268" y2="111"/>
+    <line x1="328" y1="109" x2="344" y2="111"/>
+  </g>
+  <circle cx="306" cy="114" r="7" fill="#19e3d2" opacity="0.5"/>
+
+  <!-- sparkle stars -->
+  <path d="M348 90 l3.5 8 8 3.5 -8 3.5 -3.5 8 -3.5 -8 -8 -3.5 8 -3.5 Z" fill="#ffffff" opacity="0.85"/>
+  <path d="M256 128 l2.5 6 6 2.5 -6 2.5 -2.5 6 -2.5 -6 -6 -2.5 6 -2.5 Z" fill="#9ccfff" opacity="0.7"/>
+</svg>

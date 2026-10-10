@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- PenroseBreak icon: one vivid glowing turquoise block over the dark deep-sea
+       playfield color, with a small ball dot below it. Pure vector. -->
+  <rect width="128" height="128" rx="18" fill="#06121a"/>
+  <!-- glow halo behind the block -->
+  <rect x="18" y="34" width="92" height="34" rx="10" fill="#0fb8ad" opacity="0.22"/>
+  <rect x="24" y="40" width="80" height="22" rx="7" fill="#0fb8ad" opacity="0.4"/>
+  <!-- the block -->
+  <rect x="28" y="42" width="72" height="18" rx="5" fill="#0fb8ad"/>
+  <rect x="32" y="45" width="64" height="5" rx="2.5" fill="#7ff7ee" opacity="0.75"/>
+  <!-- the ball, glowing -->
+  <circle cx="64" cy="92" r="15" fill="#00ffe0" opacity="0.18"/>
+  <circle cx="64" cy="92" r="10" fill="#00ffe0" opacity="0.4"/>
+  <circle cx="64" cy="92" r="6.5" fill="#00ffe0"/>
+  <circle cx="64" cy="92" r="3" fill="#e8fffc"/>
+</svg>

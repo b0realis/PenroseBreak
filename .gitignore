@@ -1,0 +1,4 @@
+# Godot 4 import cache, exports and release packages (local only)
+.godot/
+build/
+*.tmp

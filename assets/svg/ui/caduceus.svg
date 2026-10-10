@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <!-- PRESCRIPTION GAMES brand mark: gold caduceus — winged staff, two entwined snakes crossing
+       three times (weave alternates B/A/B). Flat gold #f2c94c / #d4a017, #1a1626 outlines,
+       transparent background. Reads at 96 px, crisp at 300 px. -->
+  <!-- ===== wings (behind staff) ===== -->
+  <path d="M130 66 Q148 38 186 32 Q216 28 232 36 Q214 44 198 50 Q216 50 228 56 Q208 64 190 66 Q202 70 210 76 Q188 84 168 80 Q146 76 132 64 Z"
+        fill="#f2c94c" stroke="#1a1626" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M110 66 Q92 38 54 32 Q24 28 8 36 Q26 44 42 50 Q24 50 12 56 Q32 64 50 66 Q38 70 30 76 Q52 84 72 80 Q94 76 108 64 Z"
+        fill="#f2c94c" stroke="#1a1626" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- wing feather shading -->
+  <path d="M190 66 Q202 70 210 76 Q188 84 168 80 Q146 76 132 64 L134 60 Q156 74 176 74 Q184 72 190 66 Z" fill="#d4a017"/>
+  <path d="M50 66 Q38 70 30 76 Q52 84 72 80 Q94 76 108 64 L106 60 Q84 74 64 74 Q56 72 50 66 Z" fill="#d4a017"/>
+  <path d="M152 52 Q170 42 192 40 M156 62 Q176 58 196 54" fill="none" stroke="#1a1626" stroke-width="1.5" opacity="0.45"/>
+  <path d="M88 52 Q70 42 48 40 M84 62 Q64 58 44 54" fill="none" stroke="#1a1626" stroke-width="1.5" opacity="0.45"/>
+  <!-- ===== staff ===== -->
+  <polygon points="115,222 125,222 120,238" fill="#d4a017" stroke="#1a1626" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="115" y="42" width="10" height="182" fill="#f2c94c" stroke="#1a1626" stroke-width="2.5"/>
+  <rect x="121" y="44" width="3" height="178" fill="#d4a017"/>
+  <rect x="110" y="46" width="20" height="7" rx="2" fill="#f2c94c" stroke="#1a1626" stroke-width="2"/>
+  <!-- orb -->
+  <circle cx="120" cy="32" r="13" fill="#f2c94c" stroke="#1a1626" stroke-width="2.5"/>
+  <path d="M108.5 38 A 13 13 0 0 0 131.5 38 Q 120 46 108.5 38 Z" fill="#d4a017"/>
+  <!-- ===== snake A (tail bottom-left; under B at y182/y98, over B at y140) ===== -->
+  <path d="M72 218 C84 214 106 196 120 182 C134 175 154 172 154 161 C154 150 134 147 120 140 C106 133 86 130 86 119 C86 108 106 105 120 98 C134 91 146 92 146 84 C146 78 140 74 132 72"
+        fill="none" stroke="#1a1626" stroke-width="13" stroke-linecap="round"/>
+  <path d="M72 218 C84 214 106 196 120 182 C134 175 154 172 154 161 C154 150 134 147 120 140 C106 133 86 130 86 119 C86 108 106 105 120 98 C134 91 146 92 146 84 C146 78 140 74 132 72"
+        fill="none" stroke="#f2c94c" stroke-width="9" stroke-linecap="round"/>
+  <path d="M72 218 C84 214 106 196 120 182 C134 175 154 172 154 161 C154 150 134 147 120 140 C106 133 86 130 86 119 C86 108 106 105 120 98 C134 91 146 92 146 84 C146 78 140 74 132 72"
+        fill="none" stroke="#d4a017" stroke-width="8" stroke-linecap="butt" stroke-dasharray="3 11" opacity="0.85"/>
+  <!-- ===== snake B (tail bottom-right; crosses over A at y182 and y98) ===== -->
+  <path d="M168 218 C156 214 134 196 120 182 C106 175 86 172 86 161 C86 150 106 147 120 140 C134 133 154 130 154 119 C154 108 134 105 120 98 C106 91 94 92 94 84 C94 78 100 74 108 72"
+        fill="none" stroke="#1a1626" stroke-width="13" stroke-linecap="round"/>
+  <path d="M168 218 C156 214 134 196 120 182 C106 175 86 172 86 161 C86 150 106 147 120 140 C134 133 154 130 154 119 C154 108 134 105 120 98 C106 91 94 92 94 84 C94 78 100 74 108 72"
+        fill="none" stroke="#f2c94c" stroke-width="9" stroke-linecap="round"/>
+  <path d="M168 218 C156 214 134 196 120 182 C106 175 86 172 86 161 C86 150 106 147 120 140 C134 133 154 130 154 119 C154 108 134 105 120 98 C106 91 94 92 94 84 C94 78 100 74 108 72"
+        fill="none" stroke="#d4a017" stroke-width="8" stroke-linecap="butt" stroke-dasharray="3 11" opacity="0.85"/>
+  <!-- weave: re-draw snake A's middle span so A passes OVER B at the y=140 crossing -->
+  <path d="M154 161 C154 150 134 147 120 140 C106 133 86 130 86 119"
+        fill="none" stroke="#1a1626" stroke-width="13" stroke-linecap="round"/>
+  <path d="M154 161 C154 150 134 147 120 140 C106 133 86 130 86 119"
+        fill="none" stroke="#f2c94c" stroke-width="9" stroke-linecap="round"/>
+  <path d="M154 161 C154 150 134 147 120 140 C106 133 86 130 86 119"
+        fill="none" stroke="#d4a017" stroke-width="8" stroke-linecap="butt" stroke-dasharray="3 11" opacity="0.85"/>
+  <!-- ===== heads, facing each other under the orb ===== -->
+  <path d="M139 72 Q141 62 132 59 Q123 57 121 64 Q120 71 127 74 Q134 77 139 72 Z" fill="#f2c94c" stroke="#1a1626" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M101 72 Q99 62 108 59 Q117 57 119 64 Q120 71 113 74 Q106 77 101 72 Z" fill="#f2c94c" stroke="#1a1626" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="130" cy="65" r="1.8" fill="#1a1626"/>
+  <circle cx="110" cy="65" r="1.8" fill="#1a1626"/>
+  <path d="M123 61 L121 54 L119 57 M117 61 L119 54" fill="none" stroke="#1a1626" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
